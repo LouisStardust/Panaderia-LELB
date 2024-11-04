@@ -1,0 +1,79 @@
+/* General */
+body {
+    background-color: #f9f3e6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #d25c4d;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #d25c4d;
+}
+
+/* Carrusel */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Tabla de Productos */
+.table {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f1e4d6;
+}
+
+.table img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #d25c4d;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #c44a39;
+}
+
+.btn-secondary {
+    background-color: #3c3c3c;
+}
+
+/* Modal */
+.modal-header {
+    background-color: #d25c4d;
+    color: white;
+}
+
+.modal-content {
+    border-radius: 10px;
+}
+
+/* Galería */
+#galeriaProductos .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
